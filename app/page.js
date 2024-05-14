@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 
 import styles from "./page.module.css";
@@ -9,6 +8,7 @@ export default function Home() {
 			<Link href="/">Home</Link>
 			<Link href="/contact">Contact</Link>
 			<Link href="/cv">CV</Link>
+			<Link href="/jeu">Jeu</Link>
 		</main>
 	);
 }
